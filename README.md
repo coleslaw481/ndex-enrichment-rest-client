@@ -16,18 +16,20 @@ Requirements
 ============
 
 * [Java][java] 8+ **(jdk to build)**
+* [Make][make] **(to build)**
+* [Maven][maven] 3.0 or higher **(to build)** -- tested with 3.6
+
+Special Java modules to install (cause we havent put these into maven central)
+
+* [ndex-enrichment-rest-model](https://github.com/ndexbio/ndex-enrichment-rest-model) built and installed via `mvn install`
 
 
 
 Building  
 ========
 
-Build requirements:
-
-* [Java 8+][java] JDK
-* [Make][make] **(to build)**
-* [Maven][maven] 3.0 or higher **(to build)**
-
+Commands below build this module assuming machine has [Git][git] command line tools
+installed ad above Java modules have been installed.
 
 ```Bash
 # In lieu of git one can just download repo and unzip it
@@ -37,10 +39,6 @@ cd ndex-enrichment-rest-client
 mvn install
 
 ```
-
-The above command will create a jar file under **target/** named 
-**ndex-enrichment-rest-client-\<VERSION\>.jar** 
-
 
 
 
