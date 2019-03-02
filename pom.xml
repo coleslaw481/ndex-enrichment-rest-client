@@ -95,7 +95,7 @@
         </dependency>
     </dependencies>
     <scm>
-	  <connection>scm:git:https://github.com/coleslaw481/ndex-enrichment-rest-client.git</connection>
+	  <connection>scm:git:https://github.com/ndexbio/ndex-enrichment-rest-client.git</connection>
     </scm>
     <build>
         <pluginManagement>

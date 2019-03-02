@@ -31,7 +31,7 @@ Build requirements:
 
 ```Bash
 # In lieu of git one can just download repo and unzip it
-git clone https://github.com/coleslaw481/ndex-enrichment-rest-client.git
+git clone https://github.com/ndexbio/ndex-enrichment-rest-client.git
 
 cd ndex-enrichment-rest-client
 mvn install
