@@ -10,6 +10,7 @@ NDEx Enrichment REST Client
 ===========================
 
 Java REST client to interact with NDEx Enrichment REST Service
+which is used by [ndexsearch-rest](https://github.com/ndexbio/ndexsearch-rest)
 
 
 Requirements
