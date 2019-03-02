@@ -189,7 +189,7 @@ public class EnrichmentRestClientImpl implements EnrichmentRestClient {
         }
     }
     private String getNetworkOverlayEndPoint(final String id) throws EnrichmentException {
-        return _restEndPoint + "/" + id;
+        return _restEndPoint + "/" + id + "/overlaynetwork";
     }
     /**
      * Gets a network as CX
