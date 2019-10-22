@@ -35,8 +35,11 @@ public class EnrichmentRestClientImpl implements EnrichmentRestClient {
         }
         if (restEndPoint == null){
             throw new IllegalArgumentException("restEndPoint cannot be null");
-        }
+        } else if (restEndPoint.substring(restEndPoint.length() - 1).equals("/")) {
+        	_restEndPoint = restEndPoint.substring(0, restEndPoint.length() - 1);
+        } else {
         _restEndPoint = restEndPoint;
+        }
     }
     
     /**
