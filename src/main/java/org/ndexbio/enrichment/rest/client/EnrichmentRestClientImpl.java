@@ -41,6 +41,16 @@ public class EnrichmentRestClientImpl implements EnrichmentRestClient {
         _restEndPoint = restEndPoint;
         }
     }
+	
+	/**
+	 * Sets connect and socket timeouts
+	 * @param connectionTimeout
+	 * @param socketTimeout 
+	 */
+	public void setTimeouts(long connectionTimeout,
+                               long socketTimeout){
+		Unirest.setTimeouts(connectionTimeout, socketTimeout);
+	}
     
     /**
      * Configures Jackson to perform serialization/deserialization of json
