@@ -4,7 +4,7 @@
 
     <groupId>org.ndexbio.enrichment.rest.client</groupId>
     <artifactId>ndex-enrichment-rest-client</artifactId>
-    <version>0.3.0-SNAPSHOT</version>
+    <version>0.3.0</version>
     <packaging>jar</packaging>
 
     <name>NDEx Pathway Relevance REST Client</name>
