@@ -4,7 +4,7 @@
 
     <groupId>org.ndexbio.enrichment.rest.client</groupId>
     <artifactId>ndex-enrichment-rest-client</artifactId>
-    <version>0.3.0</version>
+    <version>0.3.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>NDEx Pathway Relevance REST Client</name>
@@ -15,15 +15,15 @@
         <resteasy.version>3.6.3.Final</resteasy.version>
         <junit.version>5.3.1</junit.version>
         <easymock.version>3.0</easymock.version>
-        <jackson.version>2.10.1</jackson.version>
+        <jackson.version>2.12.1</jackson.version>
         <logback.version>1.2.3</logback.version>
         <commons-math3.version>3.6.1</commons-math3.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <hamcrest.version>2.1</hamcrest.version>
         <guava.version>27.0.1-jre</guava.version>
         <swagger.version>2.0.0</swagger.version>
         <unirest-java.version>1.4.9</unirest-java.version>
-        <ndex-enrichment-rest-model.version>0.3.0-SNAPSHOT</ndex-enrichment-rest-model.version>
+        <ndex-enrichment-rest-model.version>0.3.1-SNAPSHOT</ndex-enrichment-rest-model.version>
     </properties>
 
     <distributionManagement>
