@@ -23,9 +23,33 @@
         <guava.version>27.0.1-jre</guava.version>
         <swagger.version>2.0.0</swagger.version>
         <unirest-java.version>1.4.9</unirest-java.version>
-        <ndex-enrichment-rest-model.version>0.4.0-20220222.184536-6</ndex-enrichment-rest-model.version>
+        <ndex-enrichment-rest-model.version>0.4.0-20220222.185505-7</ndex-enrichment-rest-model.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>cytoscape_releases</id>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <name>Cytoscape Releases</name>
+            <url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/</url>
+        </repository>
+        <repository>
+            <id>cytoscape_snapshots</id>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <name>Cytoscape Snapshots</name>
+            <url>https://nrnb-nexus.ucsd.edu/repository/cytoscape_snapshots/</url>
+        </repository>
+    </repositories>
     <distributionManagement>
         <repository>
             <id>cytoscape_releases</id>
