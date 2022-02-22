@@ -23,7 +23,7 @@
         <guava.version>27.0.1-jre</guava.version>
         <swagger.version>2.0.0</swagger.version>
         <unirest-java.version>1.4.9</unirest-java.version>
-        <ndex-enrichment-rest-model.version>0.4.0-SNAPSHOT</ndex-enrichment-rest-model.version>
+        <ndex-enrichment-rest-model.version>0.4.0-20220222.184536-6</ndex-enrichment-rest-model.version>
     </properties>
 
     <distributionManagement>
