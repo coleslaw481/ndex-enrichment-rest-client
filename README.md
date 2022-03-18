@@ -6,10 +6,13 @@
 
 [make]: https://www.gnu.org/software/make
 
-NDEx Enrichment REST Client
-===========================
+NDEx Enrichment REST Client ([MOVED](https://github.com/cytoscape/ndex-enrichment-rest))
+========================================
 
-Java REST client to interact with NDEx Enrichment REST Service
+**As of release 0.8.0, classes in this repo have been moved into 
+[NDEx Pathway Relevance REST Service](https://github.com/cytoscape/ndex-enrichment-rest)**
+
+Former Java REST client to interact with NDEx Enrichment REST Service
 which is used by [ndexsearch-rest](https://github.com/ndexbio/ndexsearch-rest)
 
 
@@ -52,3 +55,6 @@ Acknowledgements
 ================
 
 TODO
+
+**As of release 0.8.0, classes in this repo have been moved into 
+[NDEx Pathway Relevance REST Service](https://github.com/cytoscape/ndex-enrichment-rest)**
